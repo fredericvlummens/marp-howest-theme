@@ -11,7 +11,7 @@ section {
   width: 1280px;
   height: 720px;
   font-size: 30pt;
-  background: url("./regular-background.png") center / cover no-repeat;
+  background: url("https://fredericvlummens.github.io/marp-howest-theme/regular-background.png") center / cover no-repeat;
   display: flex;
   flex-direction: column;
   justify-content: flex-start;
@@ -20,7 +20,7 @@ section {
 }
 
 section.lead {
-  background: url("./lead-background.png") center / cover no-repeat;
+  background: url("https://fredericvlummens.github.io/marp-howest-theme/lead-background.png") center / cover no-repeat;
   padding: 325px 0 0 400px;
 }
 
