@@ -1,0 +1,72 @@
+/* howest.css */
+/* @theme howest */
+
+@import "default";
+
+:root {
+  font-family: Calibri, "Segoe UI", Verdana, Arial, Helvetica, sans-serif;
+}
+
+section {
+  width: 1280px;
+  height: 720px;
+  font-size: 30pt;
+  background: url("./regular-background.png") center / cover no-repeat;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  padding: 10px 80px 0 75px;
+  position: relative;
+}
+
+section.lead {
+  background: url("./lead-background.png") center / cover no-repeat;
+  padding: 325px 0 0 400px;
+}
+
+h1,
+h2,
+h3 {
+  margin: 0;
+  color: #000;
+}
+
+h1 {
+  font-size: 48pt;
+  margin-bottom: 30px;
+}
+
+h2 {
+  font-size: 32pt;
+}
+
+h3 {
+  font-size: 24pt;
+}
+
+section.lead h1,
+section.lead h2,
+section.lead h3,
+section.lead h4 {
+  color: #fff;
+  margin-bottom: 12px;
+}
+
+section.lead h3 {
+  font-weight: normal;
+}
+
+section.lead h4 {
+    font-size: 16pt;
+    font-weight: normal;
+    text-align: right;
+    position: absolute;
+    bottom: 36px;
+    right: 36px;
+}
+
+section ul,
+section ol {
+  margin: 0 0 20px 0;
+  padding-left: 1em;
+}
